@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#game{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+#character{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color:pink;
+    left: 300px;
+    top: -300px;
+}
